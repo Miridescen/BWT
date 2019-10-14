@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1416BD772352D54A003F667B /* BWTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BD762352D54A003F667B /* BWTTabBarController.m */; };
+		1416BD7A2352D569003F667B /* BWTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BD792352D569003F667B /* BWTNavigationController.m */; };
+		1416BD872352D7E1003F667B /* BWTBaseTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BD862352D7E1003F667B /* BWTBaseTVC.m */; };
+		1416BD8A2352D80B003F667B /* BWTStoreTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BD892352D80B003F667B /* BWTStoreTVC.m */; };
+		1416BD8D2352D83C003F667B /* BWTShopTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BD8C2352D83C003F667B /* BWTShopTVC.m */; };
+		1416BD902352D84D003F667B /* BWTMineTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BD8F2352D84D003F667B /* BWTMineTVC.m */; };
+		1416BD9F23530750003F667B /* BWTGoodCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BD9E23530750003F667B /* BWTGoodCVCell.m */; };
+		1416BDA223531215003F667B /* BWTGoodsCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BDA123531215003F667B /* BWTGoodsCV.m */; };
+		1416BDA523531CEC003F667B /* BWTStoreHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BDA423531CEC003F667B /* BWTStoreHeadView.m */; };
+		1416BDA92353220B003F667B /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BDA82353220B003F667B /* UIColor+expanded.m */; };
+		1416BDAD23532B68003F667B /* UIColor+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BDAC23532B68003F667B /* UIColor+Tool.m */; };
+		1416BDB023532DB7003F667B /* BWTStoreMenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416BDAF23532DB7003F667B /* BWTStoreMenuTVC.m */; };
 		14401FEC23517C0C0043A025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14401FEB23517C0C0043A025 /* AppDelegate.m */; };
 		14401FF523517C0C0043A025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14401FF323517C0C0043A025 /* Main.storyboard */; };
 		14401FF723517C0F0043A025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14401FF623517C0F0043A025 /* Assets.xcassets */; };
@@ -14,8 +26,6 @@
 		14401FFD23517C0F0043A025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14401FFC23517C0F0043A025 /* main.m */; };
 		1440200723517C100043A025 /* BWTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440200623517C100043A025 /* BWTTests.m */; };
 		1440201223517C100043A025 /* BWTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440201123517C100043A025 /* BWTUITests.m */; };
-		1440202223517E280043A025 /* BWTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440202123517E280043A025 /* BWTTabBarController.m */; };
-		1440202523517E410043A025 /* BWTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440202423517E410043A025 /* BWTNavigationController.m */; };
 		1440202823518E320043A025 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440202723518E320043A025 /* HomeVC.m */; };
 		4BF1BAD7E1B1E0E861C68552 /* libPods-BWT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD68DBF292D2C803A87ABC5 /* libPods-BWT.a */; };
 /* End PBXBuildFile section */
@@ -38,6 +48,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1416BD752352D54A003F667B /* BWTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTTabBarController.h; sourceTree = "<group>"; };
+		1416BD762352D54A003F667B /* BWTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTTabBarController.m; sourceTree = "<group>"; };
+		1416BD782352D569003F667B /* BWTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTNavigationController.h; sourceTree = "<group>"; };
+		1416BD792352D569003F667B /* BWTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTNavigationController.m; sourceTree = "<group>"; };
+		1416BD852352D7E1003F667B /* BWTBaseTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTBaseTVC.h; sourceTree = "<group>"; };
+		1416BD862352D7E1003F667B /* BWTBaseTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTBaseTVC.m; sourceTree = "<group>"; };
+		1416BD882352D80B003F667B /* BWTStoreTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTStoreTVC.h; sourceTree = "<group>"; };
+		1416BD892352D80B003F667B /* BWTStoreTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTStoreTVC.m; sourceTree = "<group>"; };
+		1416BD8B2352D83C003F667B /* BWTShopTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTShopTVC.h; sourceTree = "<group>"; };
+		1416BD8C2352D83C003F667B /* BWTShopTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTShopTVC.m; sourceTree = "<group>"; };
+		1416BD8E2352D84D003F667B /* BWTMineTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTMineTVC.h; sourceTree = "<group>"; };
+		1416BD8F2352D84D003F667B /* BWTMineTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTMineTVC.m; sourceTree = "<group>"; };
+		1416BD932352F577003F667B /* CommonConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonConstant.h; sourceTree = "<group>"; };
+		1416BD942352F5AC003F667B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1416BD952352F5DA003F667B /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		1416BD9D23530750003F667B /* BWTGoodCVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTGoodCVCell.h; sourceTree = "<group>"; };
+		1416BD9E23530750003F667B /* BWTGoodCVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTGoodCVCell.m; sourceTree = "<group>"; };
+		1416BDA023531215003F667B /* BWTGoodsCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTGoodsCV.h; sourceTree = "<group>"; };
+		1416BDA123531215003F667B /* BWTGoodsCV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTGoodsCV.m; sourceTree = "<group>"; };
+		1416BDA323531CEC003F667B /* BWTStoreHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTStoreHeadView.h; sourceTree = "<group>"; };
+		1416BDA423531CEC003F667B /* BWTStoreHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTStoreHeadView.m; sourceTree = "<group>"; };
+		1416BDA72353220B003F667B /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		1416BDA82353220B003F667B /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		1416BDAA2353225B003F667B /* OC_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC_Category.h; sourceTree = "<group>"; };
+		1416BDAB23532B68003F667B /* UIColor+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tool.h"; sourceTree = "<group>"; };
+		1416BDAC23532B68003F667B /* UIColor+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tool.m"; sourceTree = "<group>"; };
+		1416BDAE23532DB7003F667B /* BWTStoreMenuTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTStoreMenuTVC.h; sourceTree = "<group>"; };
+		1416BDAF23532DB7003F667B /* BWTStoreMenuTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTStoreMenuTVC.m; sourceTree = "<group>"; };
 		14401FE723517C0C0043A025 /* 别无他店.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "别无他店.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14401FEA23517C0C0043A025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14401FEB23517C0C0043A025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,10 +90,6 @@
 		1440200D23517C100043A025 /* BWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1440201123517C100043A025 /* BWTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTUITests.m; sourceTree = "<group>"; };
 		1440201323517C100043A025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1440202023517E280043A025 /* BWTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BWTTabBarController.h; path = ../../common/BWTTabBarController.h; sourceTree = "<group>"; };
-		1440202123517E280043A025 /* BWTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BWTTabBarController.m; path = ../../common/BWTTabBarController.m; sourceTree = "<group>"; };
-		1440202323517E410043A025 /* BWTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BWTNavigationController.h; path = ../../common/BWTNavigationController.h; sourceTree = "<group>"; };
-		1440202423517E410043A025 /* BWTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BWTNavigationController.m; path = ../../common/BWTNavigationController.m; sourceTree = "<group>"; };
 		1440202623518E320043A025 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		1440202723518E320043A025 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		3FD68DBF292D2C803A87ABC5 /* libPods-BWT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,10 +135,10 @@
 		1416BD732352D282003F667B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1440202023517E280043A025 /* BWTTabBarController.h */,
-				1440202123517E280043A025 /* BWTTabBarController.m */,
-				1440202323517E410043A025 /* BWTNavigationController.h */,
-				1440202423517E410043A025 /* BWTNavigationController.m */,
+				1416BD7C2352D715003F667B /* Mine */,
+				1416BD7E2352D715003F667B /* ShoppingBag */,
+				1416BD7D2352D715003F667B /* Store */,
+				1416BD7B2352D682003F667B /* common */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -112,8 +146,95 @@
 		1416BD742352D282003F667B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1416BD922352F4ED003F667B /* Config */,
+				1416BD912352F281003F667B /* Tool */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		1416BD7B2352D682003F667B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1416BD752352D54A003F667B /* BWTTabBarController.h */,
+				1416BD762352D54A003F667B /* BWTTabBarController.m */,
+				1416BD782352D569003F667B /* BWTNavigationController.h */,
+				1416BD792352D569003F667B /* BWTNavigationController.m */,
+				1416BD852352D7E1003F667B /* BWTBaseTVC.h */,
+				1416BD862352D7E1003F667B /* BWTBaseTVC.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		1416BD7C2352D715003F667B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1416BD8E2352D84D003F667B /* BWTMineTVC.h */,
+				1416BD8F2352D84D003F667B /* BWTMineTVC.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1416BD7D2352D715003F667B /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1416BD9C235306F0003F667B /* view */,
+				1416BD882352D80B003F667B /* BWTStoreTVC.h */,
+				1416BD892352D80B003F667B /* BWTStoreTVC.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		1416BD7E2352D715003F667B /* ShoppingBag */ = {
+			isa = PBXGroup;
+			children = (
+				1416BD8B2352D83C003F667B /* BWTShopTVC.h */,
+				1416BD8C2352D83C003F667B /* BWTShopTVC.m */,
+			);
+			path = ShoppingBag;
+			sourceTree = "<group>";
+		};
+		1416BD912352F281003F667B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1416BDA6235321E5003F667B /* OC_Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1416BD922352F4ED003F667B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1416BD932352F577003F667B /* CommonConstant.h */,
+				1416BD952352F5DA003F667B /* API.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1416BD9C235306F0003F667B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1416BD9D23530750003F667B /* BWTGoodCVCell.h */,
+				1416BD9E23530750003F667B /* BWTGoodCVCell.m */,
+				1416BDA023531215003F667B /* BWTGoodsCV.h */,
+				1416BDA123531215003F667B /* BWTGoodsCV.m */,
+				1416BDA323531CEC003F667B /* BWTStoreHeadView.h */,
+				1416BDA423531CEC003F667B /* BWTStoreHeadView.m */,
+				1416BDAE23532DB7003F667B /* BWTStoreMenuTVC.h */,
+				1416BDAF23532DB7003F667B /* BWTStoreMenuTVC.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1416BDA6235321E5003F667B /* OC_Category */ = {
+			isa = PBXGroup;
+			children = (
+				1416BDAA2353225B003F667B /* OC_Category.h */,
+				1416BDA72353220B003F667B /* UIColor+expanded.h */,
+				1416BDA82353220B003F667B /* UIColor+expanded.m */,
+				1416BDAB23532B68003F667B /* UIColor+Tool.h */,
+				1416BDAC23532B68003F667B /* UIColor+Tool.m */,
+			);
+			path = OC_Category;
 			sourceTree = "<group>";
 		};
 		14401FDE23517C0C0043A025 = {
@@ -151,6 +272,7 @@
 				14401FF823517C0F0043A025 /* LaunchScreen.storyboard */,
 				14401FFB23517C0F0043A025 /* Info.plist */,
 				14401FFC23517C0F0043A025 /* main.m */,
+				1416BD942352F5AC003F667B /* PrefixHeader.pch */,
 			);
 			path = BWT;
 			sourceTree = "<group>";
@@ -253,6 +375,7 @@
 		14401FDF23517C0C0043A025 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BWT;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Miridescent;
 				TargetAttributes = {
@@ -346,11 +469,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1440202523517E410043A025 /* BWTNavigationController.m in Sources */,
-				1440202223517E280043A025 /* BWTTabBarController.m in Sources */,
 				14401FEC23517C0C0043A025 /* AppDelegate.m in Sources */,
+				1416BD772352D54A003F667B /* BWTTabBarController.m in Sources */,
 				1440202823518E320043A025 /* HomeVC.m in Sources */,
+				1416BD902352D84D003F667B /* BWTMineTVC.m in Sources */,
+				1416BD8D2352D83C003F667B /* BWTShopTVC.m in Sources */,
+				1416BDA223531215003F667B /* BWTGoodsCV.m in Sources */,
+				1416BDA92353220B003F667B /* UIColor+expanded.m in Sources */,
+				1416BDB023532DB7003F667B /* BWTStoreMenuTVC.m in Sources */,
+				1416BD872352D7E1003F667B /* BWTBaseTVC.m in Sources */,
+				1416BD7A2352D569003F667B /* BWTNavigationController.m in Sources */,
+				1416BDA523531CEC003F667B /* BWTStoreHeadView.m in Sources */,
+				1416BD9F23530750003F667B /* BWTGoodCVCell.m in Sources */,
 				14401FFD23517C0F0043A025 /* main.m in Sources */,
+				1416BD8A2352D80B003F667B /* BWTStoreTVC.m in Sources */,
+				1416BDAD23532B68003F667B /* UIColor+Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +655,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 442H39QLZW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BWT/PrefixHeader.pch";
 				INFOPLIST_FILE = BWT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -541,6 +675,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 442H39QLZW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BWT/PrefixHeader.pch";
 				INFOPLIST_FILE = BWT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (

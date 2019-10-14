@@ -1,8 +1,8 @@
 //
-//  BWTTabBarController.h
+//  BWTGoodCVCell.h
 //  BWT
 //
-//  Created by Miridescent on 2019/10/12.
+//  Created by Miridescent on 2019/10/13.
 //  Copyright © 2019 Miridescent. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BWTTabBarController : UITabBarController
+@interface BWTGoodCVCell : UICollectionViewCell
 
 @end
 

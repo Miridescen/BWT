@@ -11,6 +11,11 @@
 
 #import "UIColor+expanded.h"
 #import "UIColor+Tool.h"
+#import "UIView+MSFoundation.h"
+#import "NSString+Tool.h"
+#import "UINavigationController+Tool.h"
+#import "UILabel+Tool.h"
+#import "UIButton+Tool.h"
 
 
 #endif /* OC_Category_h */

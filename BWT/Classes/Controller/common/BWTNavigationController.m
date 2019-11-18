@@ -8,7 +8,7 @@
 
 #import "BWTNavigationController.h"
 
-@interface BWTNavigationController ()
+@interface BWTNavigationController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -17,16 +17,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationBar.translucent = NO;
+//    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    [self.navigationBar setShadowImage:[UIImage new]];
+    
+    [self.navigationBar setBackIndicatorImage:[UIImage imageNamed:@"img_topreturn"]];
+    [self.navigationBar setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"img_topreturn"]];
+    self.navigationBar.tintColor = RGBColor(142, 142, 142);
+    
 }
 
-/*
-#pragma mark - Navigation
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    if (self.viewControllers.count > 0) {
+        viewController.hidesBottomBarWhenPushed = YES;
+//        UIButton *backButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 12, 18)];
+//        //设置UIButton的图像
+//        [backButton setImage:[UIImage imageNamed:@"img_topreturn"] forState:UIControlStateNormal];
+//        //给UIButton绑定一个方法，在这个方法中进行popViewControllerAnimated
+//        [backButton addTarget:self action:@selector(backItemClick) forControlEvents:UIControlEventTouchUpInside];
+//        //然后通过系统给的自定义BarButtonItem的方法创建BarButtonItem
+//        UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithCustomView:backButton];
+//        //覆盖返回按键
+//        viewController.navigationItem.leftBarButtonItem = backItem;
+    }
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:NULL];
+    viewController.navigationItem.backBarButtonItem = item;
+    
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [super pushViewController:viewController animated:animated];
 }
-*/
+
+- (void)backItemClick{
+    [self popViewControllerAnimated:YES];
+}
+
 
 @end

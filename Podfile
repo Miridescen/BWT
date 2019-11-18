@@ -6,6 +6,9 @@ target 'BWT' do
   # use_frameworks!
 pod 'Masonry'
 pod 'YYModel'
-pod 'AFNetworking'
-
+pod 'AFNetworking', '~> 2.7.0'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'Meiqia'
+pod 'AlipaySDK-iOS'
 end

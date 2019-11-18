@@ -8,11 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class GoodsCategoryModel;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BWTStoreHeadView : UIView
 
-@property (nonatomic, strong) NSArray *titleArray;
+@property(nonatomic, strong) NSArray *menuArr;
+
+@property(copy, nonatomic) void(^btnClickBlock)(GoodsCategoryModel *categoryModel);
 
 @end
 

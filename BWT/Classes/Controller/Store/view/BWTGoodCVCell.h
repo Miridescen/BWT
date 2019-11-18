@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class GoodsModel;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BWTGoodCVCell : UICollectionViewCell
+
+@property (nonatomic, strong) GoodsModel *goodModel;
 
 @end
 
